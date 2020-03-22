@@ -52,3 +52,6 @@ Las puntuaciones se calculan de la siguiente manera:
 Recuerda: No rompas!!
 :::
 
+
+
+Inspirado en https://kata-log.rocks/tennis-kata
