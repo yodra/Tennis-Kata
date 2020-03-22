@@ -1,0 +1,16 @@
+{
+  "name": "tennis-refactor-kata",
+  "version": "1.0.0",
+  "description": "## Tennis Kata Hay tres versiones de esta kata para refactorizar, cada una con sus propias 💩 en el diseño.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
