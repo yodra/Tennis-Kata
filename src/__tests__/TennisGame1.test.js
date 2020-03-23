@@ -6,7 +6,7 @@ describe('TennisGame1', () => {
     expect(game.getScore()).toBe('Love-All');
   });
 
-  test('should execute the game score OK', () => {
+  test('should after 3 point of player1 have a result of Forty-Love', () => {
     const game = new TennisGame1('player1', 'player2');
     game.wonPoint('player1');
     game.wonPoint('player1');
