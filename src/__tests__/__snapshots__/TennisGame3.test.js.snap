@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All cases ANDAMIO 1`] = `
+Array [
+  "Love-All",
+  "Fifteen-Love",
+  "Thirty-Love",
+  "Forty-Love",
+  "Win for player1",
+  "Love-Fifteen",
+  "Love-Thirty",
+  "Love-Forty",
+  "Win for player2",
+  "Fifteen-All",
+  "Thirty-All",
+  "Deuce",
+  "Deuce",
+  "Advantage player1",
+  "Advantage player2",
+  "Win for player1",
+  "Win for player2",
+]
+`;

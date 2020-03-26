@@ -16,15 +16,20 @@
     "@babel/plugin-transform-modules-commonjs": "^7.9.0",
     "@babel/plugin-transform-runtime": "^7.9.0",
     "@types/jest": "^25.1.4",
-    "@typescript-eslint/eslint-plugin": "^2.24.0",
-    "@typescript-eslint/parser": "^2.24.0",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
     "jest": "^25.1.0",
     "prettier": "^2.0.1",
     "ts-jest": "^25.2.1",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   },
   "jest": {
     "preset": "ts-jest",
@@ -37,5 +42,7 @@
       "json"
     ],
     "testEnvironment": "node"
+  },
+  "dependencies": {
   }
 }
