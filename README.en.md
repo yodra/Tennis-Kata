@@ -1,24 +1,23 @@
-# Kata Refactor
+# Tennis Kata
+This kata has three different versions to refactor. Each one of these has their own design :shit: 
 
-[English version here](./README.en.md)
+This three versions are on the `/src` directory on the files:
 
-## Tennis Kata
-Hay tres versiones de esta kata para refactorizar, cada una con sus propias 💩 en el diseño.
-
-Para ello cada pareja debe elegir uno de los 3 juegos y comenzar a trabajar! 💪
 - TennisGame1
 - TennisGame2
 - TennisGame3
 
-### Objetivo
-El objetivo es refactorizar la funcion `getScore`, que es la responsable de devolver el resultado del juego.
+## Objectives
 
-### Reglas tennis
-https://es.wikipedia.org/wiki/Tenis#Puntuaci%C3%B3n
+The objective is refactor the function `getScore`, this functions is in charge of returns the final match score.
 
-Las puntuaciones se calculan de la siguiente manera:
+## Tennis rules
 
-| Jugador 1 | Jugador 2 | Resultado |
+https://en.wikipedia.org/wiki/Tennis#Scoring
+
+The score is calculated on the following way:
+
+| Player 1 | Player 2 | Score |
 | --------- | --------- | --------- |
 | 0 | 0 | Love-All |
 | 15 | 15 | Fifteen-All |
@@ -50,10 +49,8 @@ Las puntuaciones se calculan de la siguiente manera:
 | 45** | ? | Win for player1 |
 | ? | 45** | Win for player2 |
 
-:::warning
-Recuerda: No rompas!!
-:::
+## :warning: 
 
+Don't break anything!
 
-
-Inspirado en https://kata-log.rocks/tennis-kata
+Inspired in https://kata-log.rocks/tennis-kata
