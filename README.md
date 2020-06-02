@@ -50,10 +50,14 @@ Las puntuaciones se calculan de la siguiente manera:
 | 45** | ? | Win for player1 |
 | ? | 45** | Win for player2 |
 
-:::warning
-Recuerda: No rompas!!
-:::
+## :warning: 
 
+Recuerda: No rompas!!
+
+## Comenzamos 🚀
+
+- npm install
+- npm run test-watch
 
 
 Inspirado en https://kata-log.rocks/tennis-kata

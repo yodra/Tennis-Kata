@@ -53,4 +53,9 @@ The score is calculated on the following way:
 
 Don't break anything!
 
+## Get start 🚀
+             
+- npm install
+- npm run test-watch
+
 Inspired in https://kata-log.rocks/tennis-kata

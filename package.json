@@ -43,6 +43,5 @@
     ],
     "testEnvironment": "node"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
