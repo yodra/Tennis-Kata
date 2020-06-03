@@ -53,6 +53,9 @@ The score is calculated on the following way:
 
 Don't break anything!
 
+## Environment
+You must have installed in your system an IDE, npm y jest
+
 ## Get start 🚀
              
 - npm install
