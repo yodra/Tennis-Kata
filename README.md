@@ -54,6 +54,9 @@ Las puntuaciones se calculan de la siguiente manera:
 
 Recuerda: No rompas!!
 
+## Entorno
+Deberás tener disponible en tu sistema un IDE, npm y jest
+
 ## Comenzamos 🚀
 
 - npm install
