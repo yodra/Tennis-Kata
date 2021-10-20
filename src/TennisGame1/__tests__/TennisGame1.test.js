@@ -28,6 +28,51 @@ describe('TennisGame1', () => {
 
     expect(game.getScore()).toBe('Deuce');
   });
+
+  it('returns a Thirty-Fifteen result when players are 30-15', () => {
+    const game = new TennisGame1('player1', 'player2');
+
+    addPointsToPlayer(2, 'player1', game);
+    addPointsToPlayer(1, 'player2', game);
+
+    expect(game.getScore()).toBe('Thirty-Fifteen');
+  });
+
+  it('returns a Win for player1 result when players are 45-30', () => {
+    const game = new TennisGame1('player1', 'player2');
+
+    addPointsToPlayer(4, 'player1', game);
+    addPointsToPlayer(2, 'player2', game);
+
+    expect(game.getScore()).toBe('Win for player1');
+  });
+
+  it('returns an Advantage player2 result when players are 40-45', () => {
+    const game = new TennisGame1('player1', 'player2');
+
+    addPointsToPlayer(3, 'player1', game);
+    addPointsToPlayer(4, 'player2', game);
+
+    expect(game.getScore()).toBe('Advantage player2');
+  });
+
+  it('returns an Advantage player1 result when players are 45*-45', () => {
+    const game = new TennisGame1('player1', 'player2');
+
+    addPointsToPlayer(5, 'player1', game);
+    addPointsToPlayer(4, 'player2', game);
+
+    expect(game.getScore()).toBe('Advantage player1');
+  });
+
+  it('returns an Win for player2 result when players are 45**-15', () => {
+    const game = new TennisGame1('player1', 'player2');
+
+    addPointsToPlayer(6, 'player1', game);
+    addPointsToPlayer(1, 'player2', game);
+
+    expect(game.getScore()).toBe('Win for player1');
+  });
 });
 
 describe('All cases', () => {
