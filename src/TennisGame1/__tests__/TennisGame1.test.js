@@ -1,30 +1,37 @@
-const TennisGame1 = require('./TennisGame1');
+const TennisGame1 = require('../TennisGame1');
 
-function addPointPlayer(number, name, game) {
-  while (number >= 1) {
+function addPointsToPlayer(number, name, game) {
+  for (let i = 1; i <= number; i++) {
     game.wonPoint(name);
-    number--;
   }
 }
 
 describe('TennisGame1', () => {
-  test('should execute the game score OK', () => {
+  it('returns a Love-All result after scoring no points', () => {
     const game = new TennisGame1('player1', 'player2');
     expect(game.getScore()).toBe('Love-All');
   });
 
-  test('should after 3 point of player1 have a result of Forty-Love', () => {
+  it('returns a Forty-Love result after player1 scoring 3 points', () => {
     const game = new TennisGame1('player1', 'player2');
-    game.wonPoint('player1');
-    game.wonPoint('player1');
-    game.wonPoint('player1');
+
+    addPointsToPlayer(3, 'player1', game);
+
     expect(game.getScore()).toBe('Forty-Love');
   });
 
+  it('returns a Deuce result when players are 40-40', () => {
+    const game = new TennisGame1('player1', 'player2');
+
+    addPointsToPlayer(3, 'player1', game);
+    addPointsToPlayer(3, 'player2', game);
+
+    expect(game.getScore()).toBe('Deuce');
+  });
 });
 
 describe('All cases', () => {
-  test('ANDAMIO', () => {
+  it('ANDAMIO', () => {
 
     const allGameCasesINPUT =
       [
@@ -56,9 +63,9 @@ describe('All cases', () => {
       const game = new TennisGame1('player1', 'player2');
 
       // Player 1
-      addPointPlayer(input[0], game.player1Name, game);
+      addPointsToPlayer(input[0], game.player1Name, game);
       // Player 2
-      addPointPlayer(input[1], game.player2Name, game);
+      addPointsToPlayer(input[1], game.player2Name, game);
 
       allGameCasesRESULT.push(game.getScore());
 
