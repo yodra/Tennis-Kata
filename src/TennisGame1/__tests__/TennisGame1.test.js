@@ -1,4 +1,4 @@
-const TennisGame1 = require('../TennisGame1');
+const TennisGame1 = require('./TennisGame1');
 
 function addPointPlayer(number, name, game) {
   while (number >= 1) {
