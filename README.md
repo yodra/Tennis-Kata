@@ -1,7 +1,7 @@
 # Tennis Kata
 This kata has three different versions to refactor. Each one of these has their own design :shit: 
 
-This three versions are on the `/src` directory on the files:
+The three versions are on the `/src` directory on the files:
 
 - TennisGame1
 - TennisGame2
@@ -9,13 +9,13 @@ This three versions are on the `/src` directory on the files:
 
 ## Objectives
 
-The objective is refactor the function `getScore`, this functions is in charge of returns the final match score.
+The objective is to refactor the function `getScore`, this function is in charge of returning the final match score.
 
 ## Tennis rules
 
 https://en.wikipedia.org/wiki/Tennis#Scoring
 
-The score is calculated on the following way:
+The score is calculated in the following way:
 
 | Player 1 | Player 2 | Score |
 | --------- | --------- | --------- |
@@ -54,9 +54,9 @@ The score is calculated on the following way:
 Don't break anything!
 
 ## Environment
-You must have installed in your system an IDE, npm y jest
+You must have an IDE, npm and jest installed in your system
 
-## Get start 🚀
+## Get started 🚀
              
 - npm install
 - npm run test-watch
